@@ -3,42 +3,60 @@
 <head>
   <title>Prime Store</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Google Identity Script -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
   <style>
     body {
       font-family: Arial;
+      background: #111;
+      color: white;
       text-align: center;
-      background: #0f172a;
-      color: white;
-      margin: 0;
+      padding: 50px;
     }
-    header {
-      padding: 20px;
-      background: #1e293b;
-    }
-    h1 {
-      margin: 0;
-    }
-    .btn {
-      margin-top: 20px;
-      padding: 12px 20px;
-      background: #3b82f6;
-      color: white;
-      border: none;
-      border-radius: 8px;
-      cursor: pointer;
+    .box {
+      background: #222;
+      padding: 30px;
+      border-radius: 10px;
+      display: inline-block;
     }
   </style>
 </head>
+
 <body>
 
-<header>
-  <h1>Prime Store 🚀</h1>
-</header>
+<div class="box">
+  <h1>Prime Store</h1>
+  <p>Login with Google</p>
 
-<h2>Welcome to Prime Store</h2>
-<p>Your digital products and services platform</p>
+  <!-- Google Login Button -->
+  <div id="g_id_onload"
+       data-client_id="677891932982-j5aqitdq2r7b6hr3pr9ir7bqi6si0pu9.apps.googleusercontent.com"
+       data-callback="handleCredentialResponse">
+  </div>
 
-<button class="btn">Explore Now</button>
+  <div class="g_id_signin" data-type="standard"></div>
+
+  <p id="user"></p>
+</div>
+
+<script>
+  function handleCredentialResponse(response) {
+    const data = parseJwt(response.credential);
+    document.getElementById("user").innerHTML =
+      "Welcome " + data.name + " (" + data.email + ")";
+  }
+
+  function parseJwt(token) {
+    let base64Url = token.split('.')[1];
+    let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');
+    let jsonPayload = decodeURIComponent(atob(base64).split('').map(function(c) {
+      return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+    }).join(''));
+    return JSON.parse(jsonPayload);
+  }
+</script>
 
 </body>
 </html>
