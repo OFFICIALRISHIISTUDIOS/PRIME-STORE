@@ -7,6 +7,9 @@
   <!-- Google Identity Script -->
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
+  <!-- ✅ Cloudflare Turnstile Script -->
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
   <style>
     body {
       font-family: Arial;
@@ -29,6 +32,9 @@
 <div class="box">
   <h1>Prime Store</h1>
   <p>Login with Google</p>
+
+  <!-- ✅ Turnstile Widget -->
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAAC2GFZYs7EtHHB2v"></div>
 
   <!-- Google Login Button -->
   <div id="g_id_onload"
