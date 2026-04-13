@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Prime Store</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #050505; color: #fff; padding: 2rem; max-width: 600px; margin: auto; }
+        input, textarea { width: 100%; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); padding: 1rem; color: #fff; border-radius: 10px; margin-bottom: 1rem; }
+        button { background: #fff; color: #000; border: none; padding: 1rem 2rem; border-radius: 10px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you.</p>
+    <form>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p style="margin-top: 2rem; opacity: 0.5;">Email: officialrishistudios@gmail.com</p>
+</body>
+</html>
