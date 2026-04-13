@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Deletion - Prime Store</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #050505; color: rgba(255,255,255,0.8); line-height: 1.6; padding: 2rem; max-width: 800px; margin: auto; }
+        h1 { color: #fff; }
+        .card { background: rgba(255,255,255,0.05); padding: 2rem; border-radius: 20px; border: 1px solid rgba(255,255,255,0.1); margin-top: 2rem; }
+        .warning { color: #ff4444; font-weight: bold; margin-top: 2rem; }
+    </style>
+</head>
+<body>
+    <h1>Data Deletion Instructions</h1>
+    <p>Follow these steps to permanently delete your account and data.</p>
+
+    <div class="card">
+        <h3>How to Request Deletion</h3>
+        <p>1. Send an email to <strong>officialrishistudios@gmail.com</strong> from your registered email address.</p>
+        <p>2. Subject: "Account Deletion Request - [Your Name]"</p>
+        <p>3. Our team will verify your identity and process the request.</p>
+    </div>
+
+    <h3>Timeline</h3>
+    <p>Requests are processed within <strong>3–7 business days</strong>. You will receive a confirmation email once deletion is complete.</p>
+
+    <h3>Data Removed</h3>
+    <p>We will permanently erase your profile, download history, wishlist, and OAuth connections.</p>
+
+    <p class="warning">Warning: This action is permanent and cannot be undone.</p>
+</body>
+</html>
