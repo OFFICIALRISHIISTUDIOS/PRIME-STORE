@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Prime Store</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #050505; color: rgba(255,255,255,0.8); line-height: 1.6; padding: 2rem; max-width: 800px; margin: auto; }
+        h1 { color: #fff; font-size: 2.5rem; margin-bottom: 0.5rem; }
+        h2 { color: #fff; margin-top: 2rem; }
+        .date { color: rgba(255,255,255,0.4); margin-bottom: 3rem; }
+        ul { padding-left: 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p class="date">Last updated: April 13, 2026</p>
+    
+    <h2>1. Introduction</h2>
+    <p>Welcome to Prime Store (https://www.primestore.qzz.io). We are committed to protecting your personal information and your right to privacy.</p>
+
+    <h2>2. Data Collection</h2>
+    <p>We collect personal information that you voluntarily provide to us when you register on the App:</p>
+    <ul>
+        <li><strong>Personal Data:</strong> Name, email address, and profile picture.</li>
+        <li><strong>OAuth Data:</strong> Information from Google or Facebook if you choose to login via these services.</li>
+    </ul>
+
+    <h2>3. Usage of Data</h2>
+    <p>We use your data to facilitate account creation, manage your downloads/wishlist, and provide customer support.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>We use Google and Facebook for authentication. Please refer to their respective privacy policies for details on how they handle your data.</p>
+
+    <h2>5. Data Security</h2>
+    <p>We implement technical security measures to protect your data, though no method of transmission over the internet is 100% secure.</p>
+
+    <h2>6. User Rights</h2>
+    <p>You have the right to request access, correction, or erasure of your personal data at any time.</p>
+
+    <h2>7. Contact Info</h2>
+    <p>Email: officialrishistudios@gmail.com</p>
+</body>
+</html>
