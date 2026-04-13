@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Store - Legal & Information</title>
+    <style>
+        :root { --bg: #050505; --text: rgba(255,255,255,0.8); --accent: #fff; --card: rgba(255,255,255,0.05); --border: rgba(255,255,255,0.1); }
+        body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; margin: 0; padding-top: 80px; scroll-behavior: smooth; }
+        nav { position: fixed; top: 0; width: 100%; background: rgba(5,5,5,0.8); backdrop-filter: blur(20px); display: flex; overflow-x: auto; border-bottom: 1px solid var(--border); z-index: 100; padding: 0.5rem 0; }
+        nav a { color: var(--text); padding: 0.8rem 1.5rem; text-decoration: none; white-space: nowrap; font-size: 0.85rem; font-weight: 500; transition: color 0.2s; }
+        nav a:hover { color: var(--accent); }
+        .container { max-width: 800px; margin: auto; padding: 2rem; }
+        section { margin-bottom: 6rem; border-bottom: 1px solid var(--border); padding-bottom: 4rem; }
+        h1 { color: var(--accent); font-size: 3rem; margin-bottom: 1rem; letter-spacing: -0.02em; }
+        h2 { color: var(--accent); font-size: 1.5rem; margin-top: 2.5rem; margin-bottom: 1rem; }
+        h3 { color: var(--accent); margin-bottom: 0.5rem; }
+        .card { background: var(--card); padding: 2rem; border-radius: 24px; border: 1px solid var(--border); margin: 1.5rem 0; }
+        .warning { color: #ff4444; font-weight: 600; padding: 1rem; background: rgba(255,68,68,0.05); border-radius: 12px; border: 1px solid rgba(255,68,68,0.1); }
+        .date { opacity: 0.4; font-size: 0.85rem; margin-bottom: 2rem; display: block; }
+        ul { padding-left: 1.5rem; }
+        li { margin-bottom: 0.75rem; }
+        .grid { display: grid; grid-template-columns: 1fr; gap: 1.5rem; }
+        @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="#terms">Terms of Service</a>
+        <a href="#delete">Data Deletion</a>
+        <a href="#about">About Us</a>
+        <a href="#help">Help</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <!-- Privacy Policy -->
+        <section id="privacy">
+            <h1>Privacy Policy</h1>
+            <span class="date">Last updated: April 13, 2026</span>
+            <p>Welcome to Prime Store. We are committed to protecting your personal information and your right to privacy. Contact us at <strong>officialrishistudios@gmail.com</strong>.</p>
+            
+            <h2>1. Data Collection</h2>
+            <p>We collect personal information that you voluntarily provide to us when you register on the App:</p>
+            <ul>
+                <li><strong>Personal Data:</strong> Name, email address, and profile picture.</li>
+                <li><strong>OAuth Data:</strong> Information from Google or Facebook if you choose to login via these services.</li>
+            </ul>
+
+            <h2>2. Usage of Data</h2>
+            <ul>
+                <li>To facilitate account creation and logon process.</li>
+                <li>To fulfill and manage your downloads and wishlist.</li>
+                <li>To respond to user inquiries and offer support.</li>
+            </ul>
+        </section>
+
+        <!-- Terms of Service -->
+        <section id="terms">
+            <h1>Terms of Service</h1>
+            <span class="date">Last updated: April 13, 2026</span>
+            <h2>1. Agreement to Terms</h2>
+            <p>By accessing or using Prime Store, you agree to be bound by these Terms of Service. If you do not agree, you are prohibited from using the platform.</p>
+            
+            <h2>2. User Responsibilities</h2>
+            <ul>
+                <li>Provide accurate and complete registration information.</li>
+                <li>Maintain the security of your account and password.</li>
+                <li>Not use the platform for any illegal or unauthorized purpose.</li>
+            </ul>
+
+            <h2>3. Limitation of Liability</h2>
+            <p>In no event shall Prime Store be liable for any indirect, incidental, or consequential damages arising from your use of the service.</p>
+        </section>
+
+        <!-- Data Deletion -->
+        <section id="delete">
+            <h1>Data Deletion</h1>
+            <div class="card">
+                <h3>How to Request Deletion</h3>
+                <p>1. Send an email to <strong>officialrishistudios@gmail.com</strong> from your registered email address.</p>
+                <p>2. Subject: "Account Deletion Request - [Your Name]"</p>
+                <p>3. Timeline: 3–7 business days.</p>
+            </div>
+            <p class="warning">Warning: Deleting your account will result in the permanent loss of all your data and download history.</p>
+        </section>
+
+        <!-- About Us -->
+        <section id="about">
+            <h1>About Prime Store</h1>
+            <p>Prime Store is a curated app store and marketplace designed for developers and power users. Our mission is to simplify app discovery and provide a seamless platform for accessing high-quality digital products.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Curated Selection</h3>
+                    <p>Every app is hand-picked to ensure quality, security, and performance.</p>
+                </div>
+                <div class="card">
+                    <h3>User-Centric</h3>
+                    <p>Our interface is built for speed and ease of use.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Help -->
+        <section id="help">
+            <h1>Help & Support</h1>
+            <div class="card">
+                <h3>How do I login?</h3>
+                <p>You can login using your Google account, Facebook account, or by creating a traditional email/password account.</p>
+            </div>
+            <div class="card">
+                <h3>Troubleshooting</h3>
+                <p>If you encounter issues, try clearing your browser cache or ensuring your browser is up to date.</p>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Have feedback or a question? We'd love to hear from you.</p>
+            <div class="card">
+                <p>Email: <strong>officialrishistudios@gmail.com</strong></p>
+                <p>Website: <strong>www.primestore.qzz.io</strong></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
