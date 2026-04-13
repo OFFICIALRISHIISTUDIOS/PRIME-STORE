@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Prime Store</title>
+    <style>
+        body { font-family: 'Inter', sans-serif; background: #050505; color: #fff; padding: 2rem; max-width: 800px; margin: auto; }
+        .hero { font-size: 3rem; font-weight: bold; margin-bottom: 2rem; }
+        .feature { background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 15px; margin-bottom: 1rem; }
+    </style>
+</head>
+<body>
+    <div class="hero">Prime Store</div>
+    <p>Prime Store is the next-generation marketplace for premium applications and digital tools.</p>
+    
+    <div class="feature">
+        <h3>Curated Content</h3>
+        <p>We hand-pick every app to ensure quality and security.</p>
+    </div>
+    <div class="feature">
+        <h3>Fast Discovery</h3>
+        <p>Find the tools you need in seconds with our optimized search.</p>
+    </div>
+
+    <h3>Our Mission</h3>
+    <p>To bridge the gap between innovative developers and users who demand the best digital tools.</p>
+</body>
+</html>
